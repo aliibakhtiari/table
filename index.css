@@ -1,0 +1,69 @@
+
+.lab1{
+    display:block;
+    margin: 10px;
+}
+.lab2{
+    display: inline-block;
+    margin: 10px;
+}
+.lab3{
+    display:inline-block;
+    margin: 10px;
+}
+.lab4{
+    display:inline-block;
+    margin: 10px;
+}
+#age{
+    position: fixed;
+    left: 131px;
+    padding: 7px;
+    margin: 4px;
+}
+#name1{
+    position: fixed;
+    left: 142px;
+    margin: -7px;
+    padding: 7px;
+}
+#phnumb{
+    position: fixed;
+    left: 142px;
+    margin: -7px;
+    padding: 7px;
+}
+#email{
+    position: fixed;
+    left: 131px;
+    margin: 4px;
+    padding: 7px;
+}
+#sub{
+    position: fixed;
+    left: 245px;
+    padding: 15px;
+    margin-top: 30px;
+
+}
+#tab1 {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tab1 td, #tab1 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tab1 tr:nth-child(odd){background-color: #f2f2f2;}
+  
+  #tab1 tr:hover {background-color: #ddd;}
+  
+  #tab1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }

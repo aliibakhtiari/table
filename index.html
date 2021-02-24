@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+    <form>
+    <label class="lab4">Name :<input type="text" id="name1" placeholder="your name" name="name1"></label>
+    <br/>
+    <label class="lab1">Phone Number :<input type="number" id="phnumb" placeholder="+98********" name="phnumb"></label>
+    <lable class="lab2" for="age">Age :</lable><input type="number" id="age" placeholder="age" name="age">
+    <br/>
+    <lable class="lab3" for="email">Email :</lable><input type="email" id="email" placeholder="example@email.com" name="email">
+    <br/>
+    <button id="sub" type="reset" onclick="addRow();">Submit</button>
+</form>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<table cellpadding="0" cellspacing="0" id="tab1">
+<thead>
+    <tr>
+    <th>name</th>
+    <th>number</th>
+    <th>age</th>
+    <th>email</th>
+    </tr>
+</thead>
+<tbody>
+    <tr></tr>
+</tbody>
+</table>
+
+    <script src="./index.js"></script>
+</body>
+</html>
